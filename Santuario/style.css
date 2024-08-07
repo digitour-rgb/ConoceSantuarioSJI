@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{ 
+    font-family: "Poppins", sans-serif; 
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(imagenes4/Fondo1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+        .santuario {
+            background-color: #F5F5DC;
+            width: 70%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .santuario-content {
+            text-align: center;
+        }
+
+        .santuario h1 {
+            font-size: 30px;
+            line-height: 50px;
+            text-transform: uppercase;
+            width: 70%;
+            margin: 0 auto 15px auto;
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 40px; /* Ajusta este valor para el espacio entre la imagen y el video */
+            margin-top: 30px;
+            
+        }
+        .san-video {
+            width: 320px; /* Ajusta el ancho a tu preferencia */
+            height: 240px;
+        }
+       
+
+        .image-container {
+            display: flex;
+            flex-direction: column; /* Hace que las imágenes se dispongan en una columna */
+            align-items: center; /* Opcional: centra las imágenes horizontalmente */
+            gap: 40px; /* Ajusta este valor para el espacio vertical entre las imágenes */
+            margin-bottom: 40px; /* Ajusta este valor para el espacio entre la imagen y el video */
+        }
+
+        .image-container img {
+            width: 80%; /* Ajusta este valor para hacer las imágenes más pequeñas que su tamaño original */
+            max-width: 600px; /* Establece un máximo ancho para evitar que las imágenes se agranden demasiado */
+            height: auto; /* Mantiene la proporción original de las imágenes */
+    /* También puedes usar padding o margin para ajustar el espaciado si es necesario */
+
+        }
